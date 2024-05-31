@@ -54,3 +54,70 @@ const App = () => {
   );
 };
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#F7F0E8',
+    gap: 5,
+  },
+  profileContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 15,
+    alignItems: 'center',
+  },
+  profileText: {
+    fontSize: 24,
+    fontWeight: 'bold',
+  },
+  scrollContainer: {
+    marginHorizontal: 15,
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    marginTop: 50,
+  },
+  searchInput: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 10,
+    backgroundColor: '#fff',
+    marginRight: 15,
+    borderRadius: 15,
+  },
+  searchTextInput: {
+    width: 270,
+    marginLeft: 10,
+  },
+  categoryTitle: {
+    marginTop: 25,
+    fontSize: 15,
+    fontWeight: 'bold',
+    marginBottom: 15,
+  },
+  categoryItem: {
+    backgroundColor: '#fff',
+    padding: 20,
+    borderRadius: 10,
+  },
+  categoryText: {
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
+  ongoingTask: {
+    backgroundColor: '#fff',
+    paddingTop: 50,
+    paddingBottom: 50,
+    paddingLeft: 20,
+    borderRadius: 15,
+    borderWidth: 1,
+    borderColor: '#E8D1BA',
+  },
+  ongoingTaskText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+});
+
+export default App;
